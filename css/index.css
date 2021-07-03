@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(251, 228, 187);
+}
+
+.header{
+    height:60px;
+    padding: 0 30px;
+    
+}
+
+.logo-wrapper{
+    float: left;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 300px;
+    height: 50px;
+}
+
+.signInBtn{
+    float: right;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(147, 168, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+}
+
+.signInBtn a{
+    color: white;
+    font-family: calibri;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.signInBtn:hover {
+    background-color: rgb(243, 156, 112);
+}
+.signInBtn:hover a{
+    color: black;
+}
+
+.welcome{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+
+.intro h1{
+    font-size: 80px;
+    font-weight: 800;
+    font-family: calibri;
+    margin-bottom: 10px;
+}
+
+.intro h4{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: calibri;
+    margin-bottom: 40px;
+}
+
+.registerBtn a{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: calibri;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgba(147, 168, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+}
+
+
+.registerBtn:hover a{
+    background-color: rgb(243, 156, 112);
+    color: black
+}
+
+.introImg{
+    position: absolute;
+    top: -100px;
+    left: 400px;
+}
+
+.introImg img{
+    width: 800px;
+    height: 450px;
+}

@@ -1,0 +1,172 @@
+body{
+    background-color: rgba(251, 228, 187);
+    font-family: calibri;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    height:60px;
+    padding: 0 30px;
+    
+}
+
+.logo-wrapper{
+    float: left;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 300px;
+    height: 50px;
+}
+
+h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+
+.add-info-wrapper{
+    background-color: rgb(252, 247, 241);
+    width: 1000px;
+    margin: 20px auto;
+}
+.add-info-body{
+    width: 800px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.add-info-header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.grade_select select{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.selected_content_tag {
+    /* width: 100%; */
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+.selected_content_tag li span{
+    display: inline-block;
+    border: none;
+    outline: none;
+    min-width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 4px 5px 2px;
+    border-radius: 5px;
+    margin: 2px 5px;
+    background-color: rgb(236, 236, 243);
+}
+
+
+.content_select .main h5{
+    width: 745px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.content_select h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+.h5Subject{
+    background-color: rgb(236, 242, 250);
+    border-bottom: 5px solid rgb(80, 115, 161);
+}
+
+.h5Abroad{
+    background-color: rgb(240, 231, 181);
+    border-bottom: 5px solid rgb(231, 212, 103);
+}
+
+.h5Language {
+    background-color: rgb(243, 217, 196);
+    border-bottom: 5px solid rgb(236, 151, 82);
+}
+
+.h5Curriculum {
+    background-color: rgb(211, 230, 224);
+    border-bottom: 5px solid rgb(43, 100, 107);
+}
+
+.h5Skill {
+    background-color: rgb(215, 203, 235);
+    border-bottom: 5px solid rgb(142, 109, 194);
+}
+.h5Hobby {
+    background-color: rgb(230, 179, 179);
+    border-bottom: 5px solid rgb(202, 93, 93);
+}
+
+.content_select .dropdown{
+    width: 95%;
+    margin: 0 auto;
+    /* display: none; */
+}
+
+.content_select .dropdown span{
+    display: inline-block;
+    background-color: rgb(236, 236, 243);
+    margin: 3px 2px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 5px;
+    /* border-bottom: 3px solid rgb(241, 162, 123); */
+    border: 1px solid rgb(51, 46, 46);
+    border-radius: 5px;
+}
+
+.content_select .dropdown span:hover{
+    background-color: rgba(243, 106, 38, 0.2);
+}
+
+.add_infoFinish{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.add_infoFinish p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.add_infoFinish button{
+    width: 380px;
+    height: 40px;
+    border: none;
+    background-color: rgb(241, 173, 138);
+    border-radius: 10px;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+}
+
+.add_infoFinish button a{
+    font-size: 16px;
+    font-weight: 650;
+    color: rgb(46, 38, 38);  
+}

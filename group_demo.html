@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "css/common.css">
+    <link rel = "stylesheet" href = "css/group_demo.css">
+    <link rel = "shortcut icon" href = "images/favicon_io/favicon.ico">
+    <link href="../fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet"> 
+    <script src = "js/jquery.js"></script>
+    <script src = "js/todo.js"></script>
+    <script src = "js/checkin.js"></script>
+    <script src = "js/streakcalendar.js"></script>
+
+    <title>Studyhub - CS61A</title>
+</head>
+<body>
+    <!-- Header module -->
+    <header class = "header">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+            <a href = "index.html"><img src = "images/studyhub_logo.png" class = "logo"></a>
+        </div>  
+    </header>
+
+    <div class="hub-info">
+        <div class="info-header">
+            <h1>Hub: CS61A Preview</h1>
+        </div>
+        <div class="info-details">
+            <h5><span class = "currentCount">10</span> / <span class = "totalCount">20</span> Check-Ins Today</h5>
+            <h5>Joined on <span class = "joinDate">March 9th, 2021</span></h5>
+        </div>   
+    </div>
+
+    <div class="hub-main">
+        <!-- Chat space on the left -->
+        <div class="hub-chat-wrapper">
+            Chat space
+        </div>
+
+        <div class="hub-tools">
+            <!-- To-do list -->
+            <div class="hub-todo">
+                <header class = "todo_header">
+                    <h1>Today's To Do</h1>
+                    <input type = "text" id = "todo_input" name = "todo_input" placeholder = "Add your study tasks">
+                </header>
+
+                <div class="todo_body">
+                    <ul id = "todolist" class = "todolist">
+                        <li>
+                            <!-- <input type = "checkbox">
+                            <p>阿拉拉了</p>
+                            <a href = "javascript:;"><i class="fas fa-times"></i></a> -->
+                            
+                        </li>
+                    </ul>
+
+                    <ul class = "done_todo"></ul>
+                </div>    
+            </div>
+
+            <div class="checkIn-wrapper">
+                <button class = "checkInBtn"><i class="fas fa-check"></i>Check In</button>
+                <p>On streak for <span class = "streakCount">5</span> days!</p>
+            </div>
+
+
+            <div class="tools-extra">
+                <!-- Study goal -->
+                <div class="hub-goal">
+                    <h3>Study Objects</h3>
+                    <textarea placeholder='Write down your study object, such as "Finish CS61A by July 31!"'></textarea>
+                    
+                </div>
+
+                <!-- Calendar showing streaks -->
+                <div class="streakCalendar-wrapper">
+                    <div class="streakCalendar-toggle">
+                        <p>My Streak Calendar</p><i class="fas fa-plus" id = "toggledown"></i>
+                    </div>
+                    <div class="streakCalendar">
+                        
+                    </div>
+
+                </div>
+
+                <!-- Ranking for best streaks -->
+                <div class="streakRank-wrapper">
+                    <div class="streakRank-toggle">
+                        <p>Hub Streak Rank</p><i class="fas fa-plus" id = "toggledown"></i>
+                    </div>
+                    <div class="streakRank"></div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    
+
+</body>
+</html>

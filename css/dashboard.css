@@ -1,0 +1,162 @@
+body{
+    background-color: white;
+    font-family: calibri;
+}
+
+.header{
+    height:60px;
+    padding: 0 30px;
+    
+}
+
+.logo-wrapper{
+    float: left;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 300px;
+    height: 50px;
+}
+
+
+.left-nav{
+    position: relative;
+    background-color: rgb(250, 228, 187);
+    width: 230px;
+    height: 370px;
+    margin-top: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.left-nav ul{
+    position: absolute;
+    top: 35px;
+    height: 300px;
+}
+
+.left-nav li a{
+    display: block;
+    width: 230px;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 20px;
+}
+
+.left-nav i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.left-nav li:hover{
+    background-color: rgb(246, 195, 157);
+    border-left: 8px solid #2e2424;
+    width: 222px;
+}
+
+.left-nav li a{
+    text-decoration: none;
+    color: #2e2424;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.group-wrapper{
+    position: absolute;
+    top: 90px;
+    left: 270px;
+/*     background-color: pink; */
+    width: 1400px;
+    height: 410px;
+}
+
+.groupBlock {
+    float: left;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 330px;
+    max-width: 400px;
+    overflow:scroll;
+    height: 450px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: rgb(255, 247, 244);
+}
+
+.group-info{
+    height: 250px;
+    overflow: scroll;
+}
+.group-status{
+    position: relative;
+    height: 100px;
+    top: -20px;
+}
+
+.groupNum{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.groupName{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.groupSlogan{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.streakDay{
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+.streakDay span{
+    color: rgb(252, 181, 143);
+}
+.groupCount{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(146, 146, 146);
+}
+
+.currentHeadCount{
+    color: rgb(252, 181, 143);
+}
+
+.enterBtn{
+    float: right;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(241, 162, 123);
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+
+}
+
+
+.slideBtn-wrapper{
+    position: relative;
+    left: 1350px;
+    top: -220px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(252, 173, 130);
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+
+}
+

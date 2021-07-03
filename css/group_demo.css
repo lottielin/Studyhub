@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+
+body{
+    background-color: rgba(251, 228, 187);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input, textarea{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    height:60px;
+    padding: 0 30px;
+    
+}
+
+.logo-wrapper{
+    float: left;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 300px;
+    height: 50px;
+}
+
+
+.info-header{
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.info-details{
+    position: absolute;
+    top: 75px;
+    right: 75px;
+}
+
+
+.hub-main{
+    width: 90%;
+    height: 1000px;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hub-chat-wrapper{
+    float: left;
+    width: 520px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: rgb(255, 251, 234);
+}
+
+.hub-tools{
+    float: right;
+    position: relative;
+    width: 750px;
+    height: 1000px;
+}
+
+.hub-todo{
+    box-sizing: border-box;
+    width: 380px;
+    height: 500px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+
+.todo_header h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.todo_header input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.todo_body{
+    overflow: scroll;
+}
+
+.todo_body li{
+    position: relative;
+    list-style: none;
+    box-sizing: border-box;
+    height: 35px;
+    line-height: 35px;
+}
+
+.todo_body input{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: black;
+    background-color: white;
+}
+
+
+.done_todo input{
+    background: lightgray;
+}
+
+.done_todo p, a{
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+
+.todo_body p{
+    position: absolute;
+    left: 20px;
+}
+
+.todo_body a{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+}
+
+
+.checkIn-wrapper{
+    width: 400px;
+    height: 80px;
+    text-align: center;
+}
+
+.checkInBtn{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    background-color: rgb(245, 145, 109);
+}
+
+.checkInBtn i{
+    margin-right: 5px;
+    color: grey;
+}
+
+.checkIn-wrapper p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.checkInBtn:hover{
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 10%), 0 0 10px 0 rgb(0 0 0 / 9%);
+}
+
+.streakCount{
+    color: rgb(245, 145, 109);
+} 
+
+.tools-extra{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hub-goal{
+    width: 320px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.hub-goal textarea{
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    padding: 10px;
+    outline:none;
+    resize:none;
+}
+
+.streakCalendar-wrapper{
+    width: 320px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(143, 143, 233);
+}
+
+.streakCalendar-toggle{
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.streakCalendar-toggle p{
+    float: left;
+    margin-left: 10px;
+}
+
+#toggledown{
+    float: right;
+    margin-right: 10px;
+    line-height: 50px;
+}
+
+.streakCalendar{
+    /* display: none; */
+    background-color: orange;
+}
+
+.streakRank-wrapper{
+    box-sizing: border-box;
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(143, 143, 233);
+}
+
+.streakRank-toggle{
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.streakRank-toggle p{
+    float: left;
+    margin-left: 10px;
+}
+
+.streakRank{
+    background-color: orange;
+    /* display: none; */
+}
+
